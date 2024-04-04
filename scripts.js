@@ -13,7 +13,7 @@ const usuario1 = (player1) => {
 const maquina = () => {
   const jugada = ['piedra', 'papel', 'tijera']
   const sorte = Math.floor(Math.random() * 3) // Math.randon = a un numero de o - 1(padrao)
-  // ese numero lo multiplico por 3 y var dar un valor de 0 - 2,9
+                                              // ese numero lo multiplico por 3 y var dar un valor de 0 - 2,9
   return jugada[sorte]                       // despues coloco Math.floor que redonde el numero hacia abajo 
 }                                            // el resultado es de 0 - 2  (0,1,2)
 
